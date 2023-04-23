@@ -15,8 +15,13 @@ Requirements:
 
 
 SOLUTION:
+
 Xml is Downloaded from given link.
+
 From the downloaded xml link, first_type is DLTINS: http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip file is downloaded.
+
 Extract files from zip file which is downloaded. 
+
 Using python code contents in xml  are converted into csv with the required headers and downloaded the final required csv file.
+
 Then in AWS a S3 bucket is created and the final csv file is uploaded in S3 bucket.
